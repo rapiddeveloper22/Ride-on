@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400;700&family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+
+
+:root {
+  --font-size-xs: 20px;
+  --font-size-m: 36px;
+  --font-size-l: 40px;
+  --font-size-xxl: 55px;
+  --font-size-m2: 26px;
+  --font-size-l2: 48px;
+  --font-size-xxl2: 96px;
+
+  --font-family-bebas-neue: "Bebas Neue";
+  --font-family-inter: "Inter";
+  --font-family-old_standard_tt: "Old Standard TT";
+  --font-family-oswald: "Oswald";
+  --font-family-roboto: "Roboto";
+
+  --black: #040303;
+  --white: #ffffff;
+
+  --screen-width: 98vw
+}
+
+* {
+  box-sizing: border-box;
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0;
+
+}
+
+.top_level {
+  height: 400vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header_values {
+  font-family: "Oswald", sans-serif;
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+}
+
+.header_values li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.header {
+  width: var(--screen-width);
+  height: 8vh;
+  margin-top: 1vh;
+}
+
+#logo {
+  margin-left: -5vw;
+}
+
+.inside_header_values a {
+  font-size: var(--font-size-m2);
+}
+
+.inside_header_values {
+  margin-left: 47vw;
+  margin-top: 1vh;
+}
+
+.inside_header_values_list {
+  list-style-type: none;
+}
+
+.inside_header_values_list li {
+  padding-left: 55px;
+}
+
+.main_page {
+  position: relative;
+}
+
+#about_main_image {
+  margin-left: 14vw;
+  /* margin-top: 3vh; */
+}
+
+#about_us {
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 7vw;
+  margin-left: 40vw;
+  margin-top: 10vh;
+}
+
+#about_us_text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 2.5vw;
+  text-align: center;
+  width: 90vw;
+  padding-top: 22vh;
+  margin-left: 5vw;
+}
+
+.about_us_text {
+  height: 100vh;
+  width: 100vw;
+}
+
+.our_team {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#our_team_image {
+  margin-top: 11vh;
+  margin-left: 18vw;
+}
+
+#our_team_text {
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 7vw;
+  margin-top: -65vh;
+  margin-left: 40vw;
+}
+
+.our_team_photos {
+  height: 100vh;
+  width: 100vw;
+}
+
+.team_images_1 img {
+  border-radius: 50%;
+  width: 11vw;
+  height: 20vh;
+  margin-top: 20vh;
+}
+
+.team_images_1 li {
+  list-style-type: none;
+  float: left;
+  padding-left: 13vw;
+}
+
+.team_names_1 li {
+  list-style-type: none;
+}
+
+.team_names_1 p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  margin-left: -20vw;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 3vh;
+}
+
+.footer {
+  height: 30vh;
+  background-color: var(--black);
+}
+
+#logo1 {
+  height: 15vh;
+  margin-bottom: 5vh;
+}
+
+.social,
+.mobile_app,
+.company {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+  padding-left: 8vw;
+}
+
+#social_heading,
+#mobile_app_heading,
+#company_heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  padding-bottom: 3vh;
+}
+
+.all_footer_lists {
+  margin-right: 15vw;
+  margin-top: -20vh;
+}
+
+.social li,
+.mobile_app li,
+.company li {
+  padding: 0.3vw;
+  text-align: center;
+}
+
+.social_values,
+.mobile_app_values,
+.company_values {
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
+}

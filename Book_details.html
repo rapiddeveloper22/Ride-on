@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/Book_details.css">
+</head>
+
+<body>
+    <div class="top_level">
+        <img id="logo" src="./Images/Logo.svg" alt="Logo SVG">
+        <div class="center">
+            <h1>Book</h1>
+            <form method="post" action="./PHP/book_cycle.php">
+
+                <div class="txt_field">
+                    <input type="text" name="from" required>
+                    <span></span>
+                    <label> From </label>
+                </div>
+                <div class="txt_field">
+                    <input type="text" name="to" required>
+                    <span></span>
+                    <label> To </label>
+                </div>
+                <input type="submit" value="Book" name="submit">
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

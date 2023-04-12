@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400;700&family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+
+
+:root {
+    --font-size-xs: 20px;
+    --font-size-m: 36px;
+    --font-size-l: 40px;
+    --font-size-xxl: 55px;
+    --font-size-m2: 26px;
+    --font-size-l2: 48px;
+    --font-size-xxl2: 96px;
+
+    --font-family-bebas-neue: "Bebas Neue";
+    --font-family-inter: "Inter";
+    --font-family-old_standard_tt: "Old Standard TT";
+    --font-family-oswald: "Oswald";
+    --font-family-roboto: "Roboto";
+
+    --black: #040303;
+    --white: #ffffff;
+
+    --screen-width: 98vw
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header_values {
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+}
+
+.header_values li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.header {
+    width: var(--screen-width);
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+#logo {
+    margin-left: -5vw;
+}
+
+.inside_header_values a {
+    font-size: var(--font-size-m2);
+}
+
+.inside_header_values {
+    margin-left: 47vw;
+    margin-top: 1vh;
+}
+
+.inside_header_values_list {
+    list-style-type: none;
+}
+
+.inside_header_values_list li {
+    padding-left: 55px;
+}
+
+.main_page {
+    position: relative;
+    background-color: var(--black);
+    height: 90vh;
+    width: var(--screen-width);
+}
+
+#main_page_image {
+    float: right;
+    height: 90vh;
+    margin-top: -25vh;
+}
+
+.main_text {
+    width: 50vw;
+    position: relative;
+    top: 30vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3.5vw;
+    left: 3vw;
+}
+
+#login_button,
+#sign_up_button {
+    padding: 1.1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 35vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 1vw;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+#login_button {
+    margin-left: 1.5vw;
+
+}
+
+#sign_up_button {
+    margin-left: 2vw;
+}
+
+.what_we_do {
+    background-color: var(--black);
+    width: var(--screen-width);
+    height: 100vh;
+}
+
+#what_we_do {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.what_we_do_types li {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+#rental_img,
+#services_img,
+#tracking_img {
+    height: 21vh;
+    width: 12vw;
+    border-radius: 1.8vw;
+}
+
+.what_we_do_types_li {
+    float: left;
+    padding-left: 20vh;
+}
+
+.what_we_do_types {
+    margin-top: 18vh;
+}
+
+#rental_text,
+#services_text,
+#tracking_text {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer {
+    height: 30vh;
+    background-color: var(--black);
+    /* float: left; */
+}
+
+#logo1 {
+    height: 15vh;
+    margin-bottom: 5vh;
+}
+
+.social,
+.mobile_app,
+.company {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    padding-left: 8vw;
+}
+
+#social_heading,
+#mobile_app_heading,
+#company_heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.3vw;
+    padding-bottom: 3vh;
+}
+
+.all_footer_lists {
+    margin-right: 15vw;
+    margin-top: -20vh;
+}
+
+.social li,
+.mobile_app li,
+.company li {
+    padding: 0.3vw;
+    text-align: center;
+}
+
+.social_values,
+.mobile_app_values,
+.company_values {
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+}

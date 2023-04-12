@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./Styles/Main.css">
+	<title>Ride On</title>
+</head>
+
+<body>
+	<div class="top_level">
+		<div class="header">
+			<ul class="header_values">
+				<li><img id="logo" src="./Images/Logo.svg" alt="Logo SVG"></li>
+
+				<li>
+					<div class="inside_header_values">
+						<ul class="inside_header_values_list">
+							<li><a href="login.html">LOGIN</a></li>
+							<li><a href="signup.html">SIGN UP</a> </li>
+							<li><a href="about.html">ABOUT</a> </li>
+						</ul>
+					</div>
+				</li>
+
+
+			</ul>
+		</div>
+
+
+
+		<div class="main_page">
+			<p class="main_text">RIDE WITH FREEDOM,<br>ANYWHERE,<br>ANYTIME</p> -->
+			<img id="main_page_image" src="./Images/Main_page_image.png" alt="Main_page_image">
+			<input id="login_button" type="button" value="LOGIN" onclick="openLogin()">
+			<input id="sign_up_button" type="button" value="SIGN UP" oncanplay="openSignUp()">
+		</div>
+
+
+		<div class="what_we_do">
+			<p id="what_we_do">WHAT WE DO</p>
+			<ul class="what_we_do_types">
+				<li class="what_we_do_types_li">
+					<div class="rental">
+						<ul class="rental_inside">
+							<li><img id="rental_img" src="./Images/Rental.png" alt="Rental img"></li>
+							<li>
+								<p id="rental_text">RENTAL</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="what_we_do_types_li">
+					<div class="services">
+						<ul class="services_inside">
+							<li><img id="services_img" src="./Images/Services.png" alt="Services img"></li>
+							<li>
+								<p id="services_text">SERVICES</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+
+				<li class="what_we_do_types_li">
+					<div class="tracking">
+						<ul class="tracking_inside">
+							<li><img id="tracking_img" src="./Images/Tracking.png" alt="Tracking img"></li>
+							<li>
+								<p id="tracking_text">TRACKING</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+
+
+		<div class="footer">
+			<img id="logo1" src="./Images/Logo.svg" alt="Logo SVG">
+
+			<div class="all_footer_lists">
+
+				<ul class="company">
+					<li id="company_heading">COMPANY</li>
+					<li><a class="company_values" href="">Careers</a></li>
+					<li><a class="company_values" href="">Advertise</a></li>
+					<li><a class="company_values" href="">Terms of use</a></li>
+					<li><a class="company_values" href="">Privacy Policy</a></li>
+				</ul>
+
+
+
+				<ul class="mobile_app">
+					<li id="mobile_app_heading">MOBILE APP</li>
+					<li><a class="mobile_app_values" href="">iOS</a></li>
+					<li><a class="mobile_app_values" href="">Android</a></li>
+					<li><a class="mobile_app_values" href="">Symbian</a></li>
+					<li><a class="mobile_app_values" href="">Blackberry OS</a></li>
+				</ul>
+
+
+
+
+				<ul class="social">
+					<li id="social_heading">SOCIAL</li>
+					<li><a class="social_values" href="">Tiktok</a></li>
+					<li><a class="social_values" href="">Twitter</a></li>
+					<li><a class="social_values" href="">Linkedin</a></li>
+					<li><a class="social_values" href="">Facebook</a></li>
+					<li><a class="social_values" href="">Instagram</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function openSignUp() {
+			window.open('./SignUp.html', '_self');
+		}
+
+		function openLogin() {
+			window.open('./login.html', '_self');
+		}
+	</script>
+
+
+</body>
+
+</html>

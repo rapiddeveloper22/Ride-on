@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400;700&family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+    height: 30vh;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    padding: 2.5vh 1.3vw;
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.5vh;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 2vh;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: #fff;
+    border-bottom: solid 2px #A3CFCD;
+}
+
+
+
+
+body {
+    background: #040303;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 6vh;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+:root {
+    --font-size-xs: 20px;
+    --font-size-m: 36px;
+    --font-size-l: 40px;
+    --font-size-xxl: 55px;
+    --font-size-m2: 26px;
+    --font-size-l2: 48px;
+    --font-size-xxl2: 96px;
+
+    --font-family-bebas-neue: "Bebas Neue";
+    --font-family-inter: "Inter";
+    --font-family-old_standard_tt: "Old Standard TT";
+    --font-family-oswald: "Oswald";
+    --font-family-roboto: "Roboto";
+
+    --black: #040303;
+    --white: #ffffff;
+
+    --screen-width: 98vw
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--white);
+    margin: 0;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header_values {
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+}
+
+.header_values li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.header {
+    width: var(--screen-width);
+    height: 8vh;
+    margin-top: 1vh;
+}
+
+#logo {
+    margin-left: -5vw;
+}
+
+.inside_header_values a {
+    font-size: var(--font-size-m2);
+    font-family: "Oswald", sans-serif;
+}
+
+.inside_header_values {
+    margin-left: 47vw;
+    margin-top: 1vh;
+
+}
+
+.inside_header_values_list {
+    list-style-type: none;
+}
+
+.inside_header_values_list li {
+    padding-left: 55px;
+}
+
+input {
+    background-color: #A3CFCD;
+    padding: 1vh 1vw;
+    color: var(--black);
+    font-weight: 600;
+}

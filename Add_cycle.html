@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add Vehicle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/Add_cycle.css">
+</head>
+
+<body>
+    <div class="top_level">
+        <img id="logo" src="./Images/Logo.svg" alt="Logo SVG">
+        <div class="center">
+            <h1>Add Vehicle</h1>
+            <form method="post" action="http://localhost/Ride-On/Frontend/PHP/Add_cycle.php">
+
+                <div class="txt_field">
+                    <input type="text" name="user" required>
+                    <span></span>
+                    <label> Username </label>
+                </div>
+                <div class="txt_field">
+                    <input type="text" name="brand" required>
+                    <span></span>
+                    <label> Brand </label>
+                </div>
+                <div class="txt_field">
+                    <!-- <label for="type">Type</label>
+                    <select name="type" id="type">
+                        <option value="gear">Gear</option>
+                        <option value="non_gear">Non Gear</option>
+                        <option value="electic">Electic</option>
+                    </select>
+                    <span></span> -->
+                    <input type="text" name="type" required>
+                    <span></span>
+                    <label> Type </label>
+                </div>
+                <div class="txt_field">
+                    <input type="number" name="yop" required>
+                    <span></span>
+                    <label> Year of purchase </label>
+                </div>
+                <div class="txt_field">
+                    <input type="number" name="amount" required>
+                    <span></span>
+                    <label> Bill amount </label>
+                </div>
+                <div class="txt_field">
+                    <input type="number" name="phno" required>
+                    <span></span>
+                    <label> Phone number </label>
+                </div>
+                <input type="submit" value="Add" name="submit">
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
